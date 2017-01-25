@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+#RewriteRule ^(.*)/(.*)/(.*)/(.)?$ index.php?%{QUERY_STRING}&kieli=$1&versio=$2&sivu=$3 [L]
+#RewriteRule ^(.*)/(.*)/(.)?$ index.php?%{QUERY_STRING}&kieli=$1&sivu=$2 [L]
+#RewriteRule ^(.*)/(.)?$ index.php?%{QUERY_STRING}&kieli=$1 [L]
+
+RewriteRule ^([a-z][a-z])/([a-z]*)/?$ index.php?%{QUERY_STRING}&kieli=$1&sivu=$2 [L]
+RewriteRule ^([a-z][a-z])/?$ index.php?%{QUERY_STRING}&kieli=$1 [L]
+
+ErrorDocument 401 /error.php?e=401
+ErrorDocument 403 /error.php?e=403
+ErrorDocument 404 /error.php?e=404

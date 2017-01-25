@@ -2,8 +2,14 @@
 require_once("includes/sendMail.php");
 require_once("includes/recaptcha.php");
 
+//http://www.google.com/recaptcha
+$url = 'https://www.google.com/recaptcha/api/siteverify';
+
+// Create map with request parameters
+$params = array ('secret' => $recaptchaSecret, 'response' => $_POST['g-recaptcha-response'], 'remoteip ' => $_SERVER['REMOTE_ADDR']);
+
 if(strlen($_POST['viesti'])<10) {
-    header("location: palaute?err=v");
+    header("location: /fi/palaute?err=v");
 }
 else {
     // Build Http query using params
@@ -30,13 +36,13 @@ else {
     $succ = $tama->{'success'};
     $errorit = $tama->{'error-codes'};
     if($succ){
-        laheta($_POST['otsikko'],$_POST['totsikko'],$_POST['nimi'],$_POST['maili'],$_POST['viesti']);
+        sendMail($_POST['otsikko'],$_POST['totsikko'],$_POST['nimi'],$_POST['maili'],$_POST['viesti']);
         $sivu="Palaute lähetetty";
         echo "<section>";
         echo "<h1>Palaute lähetetty onnistuneesti!</h1>";
         echo "<p>Kiitos palautteestasi :)</p>";
         echo "</section>";
     }
-    else header("location: palaute?err=rc");
+    else header("location: /fi/palaute?err=rc");
 }
 ?>

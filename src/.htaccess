@@ -1,10 +1,6 @@
 RewriteEngine On
 RewriteBase /
 
-#RewriteRule ^(.*)/(.*)/(.*)/(.)?$ index.php?%{QUERY_STRING}&kieli=$1&versio=$2&sivu=$3 [L]
-#RewriteRule ^(.*)/(.*)/(.)?$ index.php?%{QUERY_STRING}&kieli=$1&sivu=$2 [L]
-#RewriteRule ^(.*)/(.)?$ index.php?%{QUERY_STRING}&kieli=$1 [L]
-
 RewriteRule ^([a-z][a-z])/([a-z]*)/?$ index.php?%{QUERY_STRING}&kieli=$1&sivu=$2 [L]
 RewriteRule ^([a-z][a-z])/?$ index.php?%{QUERY_STRING}&kieli=$1 [L]
 

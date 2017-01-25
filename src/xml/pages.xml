@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pages>
-    <group type="index" fi="etusivu" en="front" menu="true">
+    <group fi="index" en="index" menu="true">
         <page lang="fi">
             <title>Etusivu</title>
+            <linktext>Etusivu</linktext>
             <location>fi/etusivu.php</location>
         </page>
         <page lang="en">
             <title>Front page</title>
+            <linktext>Front</linktext>
             <location>en/front.php</location>
         </page>
     </group>
     <group fi="harrastukset" en="hobbies" menu="true">
         <page lang="fi">
             <title>Harrastukset</title>
+            <linktext>Harrastukset</linktext>
             <location>fi/harrastukset.php</location>
             <script>harrastukset.js</script>
         </page>
         <page lang="en">
             <title>Hobbies</title>
+            <linktext>Hobbies</linktext>
             <location>en/hobbies.php</location>
             <script>harrastukset.js</script>
         </page>
@@ -25,30 +29,36 @@
     <group fi="koulutus" en="education" menu="true">
         <page lang="fi">
             <title>Koulutus</title>
+            <linktext>Koulutus</linktext>
             <location>fi/koulutus.php</location>
         </page>
         <page lang="en">
-            <title>education</title>
+            <title>Education</title>
+            <linktext>Education</linktext>
             <location>en/education.php</location>
         </page>
     </group>
     <group fi="linkkivinkit" en="links" menu="true">
         <page lang="fi">
             <title>Linkkivinkit</title>
+            <linktext>Linkkivinkit</linktext>
             <location>fi/linkkivinkit.php</location>
         </page>
         <page lang="en">
             <title>Links</title>
+            <linktext>Links</linktext>
             <location>en/links.php</location>
         </page>
     </group>
     <group fi="tiedot" en="about" menu="true">
         <page lang="fi">
             <title>Tiedot</title>
+            <linktext>Tietoja</linktext>
             <location>fi/tiedot.php</location>
         </page>
         <page lang="en">
             <title>About</title>
+            <linktext>About</linktext>
             <location>en/about.php</location>
         </page>
     </group>
@@ -62,13 +72,15 @@
             <location>en/imagepage.php</location>
         </page>
     </group>
-    <group fi="palaute" en="feedback" menu="false">
+    <group fi="palaute" en="feedback" menu="true">
         <page lang="fi">
             <title>Palaute</title>
+            <linktext>Palaute</linktext>
             <location>fi/palaute.php</location>
         </page>
         <page lang="en">
             <title>Feedback</title>
+            <linktext>Feedback</linktext>
             <location>en/feedback.php</location>
         </page>
     </group>

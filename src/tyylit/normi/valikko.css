@@ -1,0 +1,135 @@
+﻿/*
+Valikon määrittelyt
+*/
+@media (max-width: 900px) {
+    nav{
+        position:absolute;
+        top:2px;
+        left:2px;
+        height:20px;
+        padding-top:10px;
+        padding-bottom:5px;
+        padding-left:15px;
+        padding-right:15px;
+        border-radius:30px 0 0 0;
+        border:2px solid #aaa;
+        background:#cfe;
+        font-size:20px;
+        z-index:10;
+        color:#222;
+    }
+    nav ul{
+        display:none;
+        list-style-type:none;
+        position:absolute;
+        top:30px;
+        left:-2px;
+        background:linear-gradient(#cfb,#cff);
+        padding-left:3px;
+        padding-right:15px;
+        padding-bottom:15px;
+        border:2px solid black;
+        border-top:0;
+        border-radius:0 10px 30px 0;
+    }
+    nav li{
+        margin-top:20px;
+        margin-bottom:20px;
+        margin-left:5px;
+        width:100%;
+    }
+    nav:hover{
+        text-decoration:underline;
+        border-bottom:0;
+        border-color:black;
+        background:#cfb;
+    }
+    nav:hover ul{
+        display:block;
+    }
+    nav a{
+        display:block;
+        width:100%;
+        text-decoration:none;
+        color:#007;
+        border-bottom:2px solid transparent;
+        border-top:2px solid transparent;
+        transition:border-color .4s; /* Siirtymä */
+    }
+    nav a:hover{
+        border-color:#44a;
+        text-decoration:none;
+    }
+}
+@media (min-width: 900px) {
+    nav div{
+        display:none;
+    }
+    nav{
+        list-style-type:none;/* Valikon ei haluta näyttävän perinteiseltä listalta */
+        line-height:45px;/* Rivin korkeus */
+        background:linear-gradient(#cff 10%, #ccf 50%);/* Taustan väritys */
+        background-color:#ccf;
+        text-align:center;/* Tekstin keskitys */
+    }
+    nav ul{
+        padding:0;
+        margin:0;
+    }
+    nav li{
+        display:inline;/* Elementtien välillä ei haluta olevan rivinvaihtoja */
+        white-space:nowrap;/* Ei rivinvaihtoja valikkolistan sisällä */
+        position:relative;
+    }
+    nav a{
+        display:inline-block;
+        margin-left:10px;    /* Elementtien välykset marginaaleilla (10px+10px=20px) ja samalla reunaetäisyydet ovat samat kummallakin puolella */
+        margin-right:10px;    /* ^^ */
+        padding-left:10px;    /* Sivujen ja tekstin välinen etäisyys. Tuo yhteneväisyyttä */
+        padding-right:10px;    /* ^^ */
+        text-decoration:none;/* Linkkien alleviivaus pois */
+        color:#007;/* Tekstin väritys ^^ höhöö vähäx läppä hei - 007 eli james bond */
+        font-weight:bold;/* Lihavuus */
+        font-style:initial;/* Muut linkit on kursivoitu, nämä ei */
+        font-size:18px;/* Fonttikoko */
+        transition:border-color .4s; /* Siirtymä */
+        border-bottom:4px solid #ccf;/* Alareunaan reunus 4px joka on samanvärinen kuin tausta jotta se ei näy.
+                                        Näin elementit pysyvät paikallaan kun hover vain muuttaa reunuksen väriä */
+    }
+    nav a:hover{
+        border-color:#44a;/* Kun hiiren kursori on linkin päällä tehdään reunuksen väri näkyväksi */
+        text-decoration:none;/* Alleviivaus poies */
+    }
+    nav .alivalikko{
+        background:linear-gradient(#44a 30%, #55c 70%);
+        display:none;
+        position:absolute;
+        left:10px;
+        top:30px;
+        line-height:initial;
+        text-align:left;
+    }
+    nav .alivalikko li{
+        margin:5px;
+        margin-right:10px;
+        display:block;
+    }
+    nav .alivalikko a{
+        text-indent:12px;
+        font-weight:bold;
+        font-size:15px;
+        border-bottom:0;
+        margin:0;
+        padding:0;
+
+    }
+    nav .alivalikko a:hover{
+        background:url('/grafiikat/nuoli.png') no-repeat 0px 5px;
+    }
+    nav .valikko_klikattu .alivalikko{
+        display:block;
+    }
+    nav .valikko_klikattu a{
+        border-color:#44a;
+    }
+}

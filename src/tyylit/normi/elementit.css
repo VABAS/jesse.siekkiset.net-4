@@ -1,0 +1,175 @@
+﻿body{
+    background-color:#ccf;/* Määrittelee käytännössä marginaalien värityksen */
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#222;/* Tekstin väri hieman mustaa vaaleampi harmaa */
+    font-size:16px;
+    font-family:'Lato', sans-serif;
+    position:relative;
+}
+@media (max-width: 900px) {
+    body{
+        width:95%;
+    }
+}
+@media (min-width: 900px) {
+    body{
+        width:900px;
+    }
+}
+h1{/* Ensimmäisen tason otsikko */
+    color:#407;
+    font-size:32px;
+    margin-top:20px;
+    margin-bottom:5px;
+    font-family:'Libre Baskerville', serif;
+}
+h2{/* Toisen tason otsikko */
+    color:#047;
+    font-size:24px;
+    margin-top:20px;
+    margin-bottom:5px;
+    font-family:'Libre Baskerville', serif;
+}
+h3{/* Kolmannen tason otsikko */
+    color:#333;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+p{/* Kappaleet */
+    margin-top:0px;
+    margin-bottom:7px;
+    /* Kappaleissa on tavutus päällä */
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    hyphens:auto;
+    /* ^^ */
+}
+/* Linkit */
+a{
+    color:#f33;/* Väriksi punertava, jotta erottuvat tekstistä */
+    text-decoration:none;/* Linkkien alleviivaus pois */
+    font-style:italic;
+}
+a:hover{
+    text-decoration:underline;/* Alleviivaus tulee kun kursori on linkin päällä */
+}
+/* ^^ */
+ul{/* Listojen marginaalin mulkkaus */
+    margin-top:5px;
+}
+th, td{
+    text-align:left;/* Taulukoiden soluissa teksti tasataan vasemmalle */
+    padding:2px;/* Pieni tila solujen sisällölle */
+}
+q{/* Lainauselementille lainauksen ominaisuudet (yksirivinen lainaus) */
+    display:block;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:40px;
+    color:#888;
+    font-size:12px;
+    font-weight:bold;
+    font-style:italic;
+}
+code{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:200;
+    color:#333;
+    font-size:inherit;
+    background-color:#cfa;
+}
+table{
+    border-collapse:collapse;
+}
+/* Semanttiset elementit */
+main{/* Sivukohtaisesti tehty sisältö. Sisältö joka on erilainen eri sivuilla */
+    padding-left:15px;/* Tehdään etäisyyttä reunoihin niin ei ahdista */
+    padding-right:15px;/* ^^ */
+    overflow:auto;
+    display:block;/* Tämäkin on IE:n takia... */
+}
+main:after{/* Internet Explorerin float korjaus amistelu... koska IE */
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+@media (min-width: 900px) {
+    header{
+        border-radius:30px 30px 0 0;
+        font-family:sans-serif;
+        font-size:10px;        /* Otsikon fonttikoko, eli kielilinkit */
+        text-align:right;    /* Se tasataan oikealle */
+        border:10px solid #cff;/* Itse tekstille tehdään hieman tilaa määrittämällä ulkoreunan ja sisällön etäisyys 20px */
+        background:url('/kuvat/otsikko.png') no-repeat center center #cff;
+        background-size:100%;
+        height:120px;
+    }
+}
+@media (max-width: 900px) {
+    header{
+        border-radius:30px 0 0 0;
+        font-family:sans-serif;
+        font-size:10px;        /* Otsikon fonttikoko, eli kielilinkit */
+        text-align:right;    /* Se tasataan oikealle */
+        border:10px solid #cff;/* Itse tekstille tehdään hieman tilaa määrittämällä ulkoreunan ja sisällön etäisyys 20px */
+        background:url('/kuvat/otsikko.png') no-repeat center right #cff;
+        background-size:98% 98%;
+        background-origin:content-box;
+        height:50px;
+        padding-top:40px;
+        padding-bottom:5px;
+    }
+    header select{
+        position:absolute;
+        right:5px;
+        top:10px;
+    }
+}
+section{
+    overflow:hidden;
+}
+figure{
+    margin:0;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+figcaption{
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    hyphens:auto;
+}
+@media (max-width: 900px) {
+    figure:hover figcaption{
+        opacity:1;
+        height:100%;
+    }
+}
+@media (min-width: 900px) {
+    figure:hover figcaption{
+        display:block;
+    }
+}
+footer{/* Alatunniste */
+    margin-top:10px;/* Vähän etäisyyttä sivun sisältöön */
+    //border-top:1px solid #aaa;/* Erottimena sisällöstä yläreunus 1px harmaa */
+    padding:10px;/* Eroa reunoihin lähinnä ylä- ja alapuolen takia, mutta sivulakaan se ei ole pahitteeksi */
+    text-align:center;/* Teksti keskitetään */
+    font-size:x-small;/* Teksti on pienempää kuin small :) */
+}
+footer hr{
+    width:100%;
+    height:20px;
+    border:0;
+    background:url('/grafiikat/at_hr-2.png') right bottom repeat-x;
+}

@@ -1,0 +1,27 @@
+﻿/*
+ID-merkittyjen elementtien tyylittelyt
+Näitä voi olla sivulla kerrallaan vain yksi
+*/
+#linkkivinkit a{
+    display:block;
+    margin-top:5px;
+}
+@media (max-width: 900px) {
+    #tt_kuva{
+        position:relative;
+        width:90%;
+        max-width:440px;
+    }
+    #tt_kuva img{
+        width:100%;
+    }
+}
+@media (min-width: 900px) {
+    #tt_kuva{
+        float:right;
+        position:relative;
+    }
+    #tt_kuva img{
+        width:100%;
+    }
+}

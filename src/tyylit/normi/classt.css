@@ -1,0 +1,212 @@
+﻿/*
+/*
+Class-merkittyjen elementtien tyylittelyt
+*/
+.relative{/* Kun halutaan sijoittaa elementti suhteellisesti */
+    position:relative;
+}
+@media (max-width: 900px) {
+    .sisalto{
+        border-radius:0 0 30px 30px;
+        background-color:#cff;
+    }
+    .kuvaus{/* Kuvaan tuleva kuvaus */
+        background-color:rgba(222, 255, 255, 0.6);/* Taustan väri suunnilleen sama kuin sisällön väri mutta lisänä läpinäkyvyys */
+        position:relative;/* Position absolute. Jotta tämä toimii on isännän position oltava relative */
+        width:100%;/* Leveys sama kuin isännällä(eli käytännössä kuvan leveys) */
+    }
+}
+@media (min-width: 900px) {
+    .sisalto{
+        border-radius:10px 10px 30px 30px;
+        background-color:#cff;
+    }
+    .kuvaus{/* Kuvaan tuleva kuvaus */
+        background-color:rgba(222, 255, 255, 0.6);/* Taustan väri suunnilleen sama kuin sisällön väri mutta lisänä läpinäkyvyys */
+        position:absolute;/* Position absolute. Jotta tämä toimii on isännän position oltava relative */
+        bottom:9px;/* Sijoitus suhteessa alareunaan */
+        width:100%;/* Leveys sama kuin isännällä(eli käytännössä kuvan leveys) */
+    }
+}
+.https, .suojattu{
+    padding-left:11px;
+    background:url('/grafiikat/lukko.png') no-repeat 0px 5px;
+}
+/* Palstoitukset */
+@media (max-width: 900px) {
+    .vasen_palsta{
+        width:90%;
+        float:none;
+        margin:auto;
+    }
+    .oikea_palsta{
+        width:90%;
+        float:none;
+        margin:auto;
+    }
+}
+@media (min-width: 900px) {
+    .oikea_palsta{
+        float:right;
+        width:49%;
+        padding-left:2px;
+    }
+    .vasen_palsta{
+        float:left;
+        width:49%;
+        padding-right:2px;
+    }
+}
+/* ^^ */
+.nobr{/* Kun elementin sisällä ei haluta rivinvaihtoja korvaa html4 <nobr> tagin*/
+    white-space:nowrap;
+}
+.small{/* Kun halutaan pikkutekstiä */
+    font-size:x-small;
+}
+.larr{
+    padding-left:12px;
+    background:url('/grafiikat/nuoli_l.png') no-repeat 0px 5px;
+}
+@media (max-width: 900px) {
+    .none{/* Piilotettu elementti */
+        height:0;
+        opacity:0;
+        transition:all 1s;
+    }
+}
+@media (min-width: 900px) {
+    .none{/* Piilotettu elementti */
+        display:none;
+    }
+}
+/* Sijoitteluluokat */
+.align_justify{/* Kun halutaan tasata teksti molempiin reunoihin */
+    text-align:justify;
+}
+.align_left{/* Kun halutaan sijoittaa elementti sivun vasempaan reunaan */
+    float:left;
+}
+.align_right{/* Kun halutaan sijoittaa elementti sivun oikeaan reunaan */
+    float:right;
+}
+.align_center{/* Kun halutaan sijoittaa elementti sivun keskelle */
+    margin-left:auto;
+    margin-right:auto;
+}
+/* ^^ */
+/* Listat */
+.harrastuslista a{/* Harrastuslistan linkit */
+    color:inherit;/* Väriksi sama kuin sivun tekstillä */
+    text-decoration:underline;/* Jotta erottuisivat tekstistä alleviivataan */
+    font-weight:inherit;
+}
+.harrastuslista li:hover{
+    color:black;/* Pieni värimuutos kun kursori on päällä */
+}
+.tt_lista li{
+    background-color:inherit;
+    position:relative;
+    color:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+    z-index:inherit;
+    font-size:14px;
+}
+.tt_lista li:hover .alalista{
+    height:60px;
+    opacity:1;
+}
+.alalista{
+    padding-left:20px;
+    position:relative;
+    background-color:#cfc;
+    border-left:3px solid #222;
+    border-right:1px solid #222;
+    border-bottom:1px solid #222;
+    width:350px;
+    font-size:14px;
+    z-index:100;
+    opacity:0;
+    height:0;
+    transition:height 1s,opacity .9s;
+}
+.alalista li{
+    background-color:#cfc;
+}
+/* ^^ */
+/* Taulukot */
+.synopsis_taulukko tr{
+    vertical-align:top;
+}
+.synopsis_taulukko .pariton{
+    background-color:#add;
+}
+.synopsis_taulukko .parillinen{
+    background-color:#acc;
+}
+.osi, .udp{
+    table-layout:fixed;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    width:100%;
+}
+.osi td, .osi th{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+}
+.udp td, .udp th, .tcp td, .tcp th{
+    border:1px solid black;
+    //border-bottom:1px solid black;
+    padding-left:1px;
+    padding-right:1px;
+    text-align:center;
+}
+.udp th, .tcp th{
+    width:3%;
+}
+.neljansuora_esim{
+    table-layout:fixed;
+    border-collapse: collapse;
+}
+.neljansuora_esim td{
+    border:1px solid grey;
+    width:50px;
+    height:50px;
+}
+.neljansuora_esim th{
+    border:1px solid grey;
+    border-top:0;
+    border-left:0;
+}
+.neljansuora_termisto td{
+    vertical-align:top;
+    padding-right:15px;
+}
+.neljansuora_termisto th{
+    border-bottom:2px solid #222;
+}
+/* ^^ */
+/* Kustomoidut listojen kuvat */
+.lista_timantti{
+    list-style-image:url('/grafiikat/timantti.png');
+}
+.lista_nuoli{
+    list-style-image:url('/grafiikat/nuoli.png');
+}
+.lista_lappari{
+    list-style-image:url('/grafiikat/lappari.png');
+}
+.lista_lamppu{
+    list-style-image:url('/grafiikat/lamppu.png');
+}
+.lista_kamera{
+    list-style-image:url('/grafiikat/kamera.png');
+}
+.lista_lakki{
+    list-style-image:url('/grafiikat/lakki.png');
+}
+/* ^^ */

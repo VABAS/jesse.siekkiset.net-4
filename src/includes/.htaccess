@@ -1,0 +1,4 @@
+deny from all
+
+
+ErrorDocument 403 /error.php?e=4033

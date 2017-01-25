@@ -33,7 +33,7 @@
             <location>fi/koulutus.php</location>
         </page>
         <page lang="en">
-            <title>Education</title>
+            <title>Education and degrees</title>
             <linktext>Education</linktext>
             <location>en/education.php</location>
         </page>
@@ -92,6 +92,25 @@
         <page lang="en">
             <title>Feedbacksubmit</title>
             <location>en/feedbacksubmit.php</location>
+        </page>
+    </group>
+    <group fi="loppuraportti" menu="false">
+        <page lang="fi">
+            <title>Harjoitustyön loppuraportti</title>
+            <location>fi/loppuraportti.php</location>
+        </page>
+    </group>
+    <group fi="materiaalit" menu="false">
+        <page lang="fi">
+            <title>Materiaalit</title>
+            <location>fi/materiaalit.php</location>
+        </page>
+    </group>
+    <group fi="sanaristikko" menu="false">
+        <page lang="fi">
+            <title>Sanaristikko</title>
+            <location>fi/ristikko.php</location>
+            <script>sanaristikko.js</script>
         </page>
     </group>
 </pages>

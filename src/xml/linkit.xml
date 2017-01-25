@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<linkkilista>
+  <linkki tyyppi="normaali" kategoria="linux_linkkeja-jakeluita">
+    <osoite>http://www.ubuntu.com/</osoite>
+    <teksti>
+      <fi>Ubuntu</fi>
+      <en>Ubuntu</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="linux_linkkeja-jakeluita">
+    <osoite>https://www.debian.org/</osoite>
+    <teksti>
+      <fi>Debian</fi>
+      <en>Debian</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="linux_linkkeja-jakeluita">
+    <osoite>https://getfedora.org/</osoite>
+    <teksti>
+      <fi>Fedora</fi>
+      <en>Fedora</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="linux_linkkeja-jakeluita">
+    <osoite>http://linuxmint.com/</osoite>
+    <teksti>
+      <fi>Linux mint</fi>
+      <en>Linux mint</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="linux_linkkeja-jakeluita">
+    <osoite>https://www.centos.org/</osoite>
+    <teksti>
+      <fi>CentOS</fi>
+      <en>CentOS</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="linux_linkkeja-jakeluita">
+    <osoite>https://www.opensuse.org/</osoite>
+    <teksti>
+      <fi>openSUSE</fi>
+      <en>openSUSE</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="linux_linkkeja-yleista">
+    <osoite>http://www.linux.com/</osoite>
+    <teksti>
+      <fi>linux.com</fi>
+      <en>linux.com</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="linux_linkkeja-yleista">
+    <osoite>https://www.linux.fi/</osoite>
+    <teksti>
+      <fi>linux.fi</fi>
+      <en>linux.fi</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="linux_linkkeja-yleista">
+    <osoite>https://www.kernel.org/</osoite>
+    <teksti>
+      <fi>The Linux Kernel Archives</fi>
+      <en>The Linux Kernel Archives</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="linux_linkkeja-yleista">
+    <osoite>http://distrowatch.com/</osoite>
+    <teksti>
+      <fi>DistroWatch</fi>
+      <en>DistroWatch</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muiden_kotisivuja">
+    <osoite>http://www.smoothdancer.fi/</osoite>
+    <teksti>
+      <fi>Major's Smoothies</fi>
+      <en>Major's Smoothies</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://reittiopas.jyvaskyla.fi/</osoite>
+    <teksti>
+      <fi>Jyväskylän reittiopas</fi>
+      <en>Trip planner of Jyväskylä</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://www.imdb.com/</osoite>
+    <teksti>
+      <fi>International Movie Database</fi>
+      <en>International Movie Database</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://www.goodreads.com/</osoite>
+    <teksti>
+      <fi>Goodreads</fi>
+      <en>Goodreads</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://www.maanmittauslaitos.fi/</osoite>
+    <teksti>
+      <fi>Maanmittauslaitos</fi>
+      <en>Maanmittauslaitos</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://ilmatieteenlaitos.fi/</osoite>
+    <teksti>
+      <fi>Ilmatieteenlaitos</fi>
+      <en>Ilmatieteenlaitos</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://www.liikennevirasto.fi/</osoite>
+    <teksti>
+      <fi>Liikennevirasto</fi>
+      <en>Liikennevirasto</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://turvallisuustutkinta.fi/</osoite>
+    <teksti>
+      <fi>Onnettomuustutkintakeskus</fi>
+      <en>Safety Investigation Authority of Finland</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-palvelut">
+    <osoite>http://www.foreca.fi/</osoite>
+    <teksti>
+      <fi>Foreca</fi>
+      <en>Foreca</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="muita-palvelut">
+    <osoite>https://www.flickr.com/</osoite>
+    <teksti>
+      <fi>Flickr</fi>
+      <en>Flickr</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="muita-palvelut">
+    <osoite>https://gitlab.com/</osoite>
+    <teksti>
+      <fi>GitLab</fi>
+      <en>GitLab</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="muita-palvelut">
+    <osoite>https://github.com/</osoite>
+    <teksti>
+      <fi>GitHub</fi>
+      <en>GitHub</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-uutiset">
+    <osoite>http://yle.fi/</osoite>
+    <teksti>
+      <fi>YLE</fi>
+      <en>YLE</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-uutiset">
+    <osoite>http://www.ksml.fi/</osoite>
+    <teksti>
+      <fi>Keskisuomalainen</fi>
+      <en>Keskisuomalainen</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-uutiset">
+    <osoite>http://www.iltalehti.fi/</osoite>
+    <teksti>
+      <fi>Iltalehti</fi>
+      <en>Iltalehti</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-uutiset">
+    <osoite>http://www.iltasanomat.fi/</osoite>
+    <teksti>
+      <fi>Iltasanomat</fi>
+      <en>Iltasanomat</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-uutiset">
+    <osoite>http://www.hs.fi/</osoite>
+    <teksti>
+      <fi>Helsingin sanomat</fi>
+      <en>Helsingin sanomat</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-uutiset">
+    <osoite>http://www.tilannehuone.fi/</osoite>
+    <teksti>
+      <fi>Tilannehuone</fi>
+      <en>Tilannehuone</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="muita-viihde">
+    <osoite>https://www.riemurasia.net/</osoite>
+    <teksti>
+      <fi>Riemurasia</fi>
+      <en>Riemurasia</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-viihde">
+    <osoite>http://kuvaton.com/</osoite>
+    <teksti>
+      <fi>kuvaton.com</fi>
+      <en>kuvaton.com</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="muita-viihde">
+    <osoite>http://xkcd.net/</osoite>
+    <teksti>
+      <fi>XKCD sarjakuvia</fi>
+      <en>XKCD comics</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="ohjelmia-grafiikka">
+    <osoite>http://www.gimp.org/</osoite>
+    <teksti>
+      <fi abbr="GNU Image Manipulation Program">Gimp</fi>
+      <en abbr="GNU Image Manipulation Program">Gimp</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="ohjelmia-grafiikka">
+    <osoite>http://www.irfanview.com/</osoite>
+    <teksti>
+      <fi>Irfanview</fi>
+      <en>Irfanview</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-grafiikka">
+    <osoite>https://inkscape.org/</osoite>
+    <teksti>
+      <fi>InkScape</fi>
+      <en>InkScape</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-muita_ohjelmia">
+    <osoite>https://www.avast.com/</osoite>
+    <teksti>
+      <fi>Avast antivirus</fi>
+      <en>Avast antivirus</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-muita_ohjelmia">
+    <osoite>https://www.mozilla.org/</osoite>
+    <teksti>
+      <fi>Mozilla</fi>
+      <en>Mozilla</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-muita_ohjelmia">
+    <osoite>https://www.filezilla-project.org/</osoite>
+    <teksti>
+      <fi>FileZilla</fi>
+      <en>FileZilla</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-muita_ohjelmia">
+    <osoite>https://www.bitvise.org/</osoite>
+    <teksti>
+      <fi>Bitvise SSH</fi>
+      <en>Bitvise SSH</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="ohjelmia-musiikkiaanet">
+    <osoite>http://audacityteam.org/</osoite>
+    <teksti>
+      <fi>Audacity</fi>
+      <en>Audacity</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="ohjelmia-musiikkiaanet">
+    <osoite>http://qmmp.ylsoftware.com.org/</osoite>
+    <teksti>
+      <fi abbr="Qt-based Multimedia Player">Qmmp</fi>
+      <en abbr="Qt-based Multimedia Player">Qmmp</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-musiikkiaanet">
+    <osoite>https://www.clementine-player.org/</osoite>
+    <teksti>
+      <fi>Clementine music player</fi>
+      <en>Clementine music player</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-ohjelmistokehitys">
+    <osoite>https://git-scm.com/</osoite>
+    <teksti>
+      <fi>Git</fi>
+      <en>Git</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-ohjelmistokehitys">
+    <osoite>https://eclipse.org/</osoite>
+    <teksti>
+      <fi>Eclipse IDE</fi>
+      <en>Eclipse IDE</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="https" kategoria="ohjelmia-ohjelmistokehitys">
+    <osoite>https://notepad-plus-plus.org/</osoite>
+    <teksti>
+      <fi>Notepad++</fi>
+      <en>Notepad++</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="teattereita">
+    <osoite>http://www.adastrateatteri.fi/</osoite>
+    <teksti>
+      <fi>AdAstra teatteri</fi>
+      <en>AdAstra theater</en>
+    </teksti>
+  </linkki>
+  <linkki tyyppi="normaali" kategoria="teattereita">
+    <osoite>http://www.kansannayttamo.fi/</osoite>
+    <teksti>
+      <fi>Jyväskylän kansannäyttämö</fi>
+      <en>Jyväskylän kansannäyttämö</en>
+    </teksti>
+  </linkki>
+</linkkilista>

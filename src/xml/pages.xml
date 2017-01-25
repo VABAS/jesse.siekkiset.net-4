@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pages>
+    <group type="index" fi="etusivu" en="front" menu="true">
+        <page lang="fi">
+            <title>Etusivu</title>
+            <location>fi/etusivu.php</location>
+        </page>
+        <page lang="en">
+            <title>Front page</title>
+            <location>en/front.php</location>
+        </page>
+    </group>
+    <group fi="harrastukset" en="hobbies" menu="true">
+        <page lang="fi">
+            <title>Harrastukset</title>
+            <location>fi/harrastukset.php</location>
+            <script>harrastukset.js</script>
+        </page>
+        <page lang="en">
+            <title>Hobbies</title>
+            <location>en/hobbies.php</location>
+            <script>harrastukset.js</script>
+        </page>
+    </group>
+    <group fi="koulutus" en="education" menu="true">
+        <page lang="fi">
+            <title>Koulutus</title>
+            <location>fi/koulutus.php</location>
+        </page>
+        <page lang="en">
+            <title>education</title>
+            <location>en/education.php</location>
+        </page>
+    </group>
+    <group fi="linkkivinkit" en="links" menu="true">
+        <page lang="fi">
+            <title>Linkkivinkit</title>
+            <location>fi/linkkivinkit.php</location>
+        </page>
+        <page lang="en">
+            <title>Links</title>
+            <location>en/links.php</location>
+        </page>
+    </group>
+    <group fi="tiedot" en="about" menu="true">
+        <page lang="fi">
+            <title>Tiedot</title>
+            <location>fi/tiedot.php</location>
+        </page>
+        <page lang="en">
+            <title>About</title>
+            <location>en/about.php</location>
+        </page>
+    </group>
+    <group fi="kuvasivu" en="imagepage" menu="false">
+        <page lang="fi">
+            <title>Kuvasivu</title>
+            <location>fi/kuvasivu.php</location>
+        </page>
+        <page lang="en">
+            <title>Imagepage</title>
+            <location>en/imagepage.php</location>
+        </page>
+    </group>
+    <group fi="palaute" en="feedback" menu="false">
+        <page lang="fi">
+            <title>Palaute</title>
+            <location>fi/palaute.php</location>
+        </page>
+        <page lang="en">
+            <title>Feedback</title>
+            <location>en/feedback.php</location>
+        </page>
+    </group>
+    <group fi="palautesub" en="feedbacksubmit" menu="false">
+        <page lang="fi">
+            <title>Palautesub</title>
+            <location>fi/palautesub.php</location>
+        </page>
+        <page lang="en">
+            <title>Feedbacksubmit</title>
+            <location>en/feedbacksubmit.php</location>
+        </page>
+    </group>
+</pages>

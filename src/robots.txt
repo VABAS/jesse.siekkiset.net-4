@@ -1,0 +1,22 @@
+Sitemap: http://jesse.siekkiset.net/sitemap.xml
+
+User-agent: *
+Disallow: /grafiikat
+Disallow: /js
+Disallow: /kuvat
+Disallow: /materiaalit
+Disallow: /tyylit
+Disallow: humans.txt
+
+User-agent: MJ12bot
+Disallow: /
+User-agent: Baiduspider
+Disallow: /
+User-agent: netEstate NE Crawler
+Disallow: /
+user-agent: AhrefsBot
+disallow: /
+User-agent: wotbox
+Disallow: /
+User-agent: dotbot
+Disallow: /

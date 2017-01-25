@@ -7,3 +7,4 @@ RewriteRule ^([a-z][a-z])/?$ index.php?%{QUERY_STRING}&kieli=$1 [L]
 ErrorDocument 401 /error.php?e=401
 ErrorDocument 403 /error.php?e=403
 ErrorDocument 404 /error.php?e=404
+

@@ -1,0 +1,23 @@
+--- Suomenkielinen ---
+    Tämä on sivuston jesse.siekkiset.net humans.txt tiedosto
+    Tässä tiedostossa määritellään ihmisten toivottu käyttäytyminen sivustolla.
+    Ihmiset saavat
+    - seurata kaikkia näkyviä linkkejä
+    - lähettää sähköpostia sivustolla näkyviin sähköpostiosoitteisiin
+    - linkata sivustolleni ilman erillistä lupaa henkilökohtaisilta kotisivuiltaan
+    Ihmiset(kään) eivät saa
+    - tehdä typeriä asioita
+    - lähettää spämmipostia
+    Lisäksi pyydän huomioimaan, että tämä tiedosto on vitsi
+
+--- In English ---
+    This is humans.txt file for site jesse.siekkiset.net.
+    This file defines what is desired behavior for human visitors.
+    Humans are allowed to
+    - follow all visible links
+    - send mail to visible email addresses on site
+    - link to my site from their personal sites without individual permission
+    Huomans (either) are not allowed to
+    - do stupid things
+    - send spam mail
+    Additionally, please note that this file is a joke

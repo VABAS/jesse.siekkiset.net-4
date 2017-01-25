@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ttlista>
+<produktio status="tuleva">
+  <nimi>Painia ja Pornoa</nimi>
+  <teatteri>Teatteri Iiris</teatteri>
+  <aika>
+    <vuosi>2017</vuosi>
+    <fi>Kevät</fi>
+    <en>Spring</en>
+  </aika>
+  <vastuu>
+    <fi>Valosuunnittelu</fi>
+    <en>Lighting design</en>
+  </vastuu>
+</produktio>
+   <produktio status="mennyt">
+      <nimi>Humiseva harju</nimi>
+      <teatteri>Jyväskylän kansannäyttämö</teatteri>
+      <aika>
+	<vuosi>2016</vuosi>
+	<fi>Syksy</fi>
+	<en>Fall</en>
+      </aika>
+      <vastuu>
+	<fi>Valosuunnittelu</fi>
+	<en>Lighting design</en>
+      </vastuu>
+      <vastuu>
+	<fi>Valo- ja ääniajo</fi>
+	<en>Lighting &amp; sound operator</en>
+      </vastuu>
+  </produktio>
+  <produktio status="mennyt">
+    <nimi>Päättäjät</nimi>
+    <teatteri>Siperian Nuorisoteatteri</teatteri>
+    <aika>
+      <vuosi>2016</vuosi>
+      <fi>Joulukuu</fi>
+      <en>December</en>
+    </aika>
+    <vastuu>
+      <fi>Valosuunnittelu</fi>
+      <en>Lighting design</en>
+    </vastuu>
+    <vastuu>
+      <fi>Valo- ja ääniajo</fi>
+      <en>Lighting &amp; sound operator</en>
+    </vastuu>
+  </produktio>
+   <produktio status="mennyt">
+      <nimi>Riisinjyvä-Tiloja</nimi>
+      <teatteri>Siperian nuorisoteatteri</teatteri>
+      <aika>
+	<vuosi>2016</vuosi>
+	<fi>Huhtikuu</fi>
+	<en>March</en>
+      </aika>
+      <vastuu>
+	<fi>Valosuunnittelu</fi>
+	<en>Lighting design</en>
+      </vastuu>
+      <vastuu>
+	<fi>Valoajo</fi>
+	<en>Lighting operator</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Vihan Jumala</nimi>
+      <teatteri>AdAstra-teatteri</teatteri>
+      <aika>
+	<vuosi>2016</vuosi>
+	<fi>Kevät</fi>
+	<en>Spring</en>
+      </aika>
+      <vastuu>
+	<fi>Valosuunnittelu</fi>
+	<en>Lighting design</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Uhka mediasta</nimi>
+      <teatteri>Siperian nuorisoteatteri</teatteri>
+      <aika>
+	<vuosi>2015</vuosi>
+	<fi>Joulukuu</fi>
+	<en>December</en>
+      </aika>
+      <vastuu>
+	<fi>Valosuunnittelu</fi>
+	<en>Lighting design</en>
+      </vastuu>
+      <vastuu>
+	<fi>Valoajo</fi>
+	<en>Lighting operator</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Narttujuttu</nimi>
+      <teatteri>Jyväskylän kansannäyttämö</teatteri>
+      <aika>
+	<vuosi>2015</vuosi>
+	<fi>Syksy</fi>
+	<en>Fall</en>
+      </aika>
+      <vastuu yt="yt">
+	<fi>Valosuunnittelu</fi>
+	<en>Lighting design</en>
+      </vastuu>
+      <vastuu>
+	<fi>Valoajo</fi>
+	<en>Lighting operator</en>
+      </vastuu>
+      <vastuu>
+	<fi>Miksaus</fi>
+	<en>Sound mixing</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Mitä onni on</nimi>
+      <teatteri>AdAstra-teatteri</teatteri>
+      <aika>
+	<vuosi>2015</vuosi>
+	<fi>Syksy</fi>
+	<en>Fall</en>
+      </aika>
+      <vastuu yt="yt">
+	<fi>Valosuunnittelu</fi>
+	<en>Lighting design</en>
+      </vastuu>
+      <vastuu>
+	<fi>Valo- ja ääniajo</fi>
+	<en>Lighting &amp; sound operator</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Minä olen Adolf Eichmann</nimi>
+      <teatteri>AdAstra-teatteri</teatteri>
+      <aika>
+	<vuosi>2015</vuosi>
+	<fi>Kevät</fi>
+	<en>Spring</en>
+      </aika>
+      <vastuu>
+	<fi>Valo- ja ääniajo</fi>
+	<en>Lighting &amp; sound operator</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Pidä rakkautes</nimi>
+      <teatteri>Jyväskylän kansannäyttämö</teatteri>
+      <aika>
+	<vuosi>2013</vuosi>
+	<fi>Syksy</fi>
+	<en>Fall</en>
+      </aika>
+      <vastuu>
+	<fi>Valoajo</fi>
+	<en>Lighting operator</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Näytät vieraalta rakas</nimi>
+      <teatteri>AdAstra-teatteri</teatteri>
+      <aika>
+	<vuosi>2013</vuosi>
+	<fi>Syksy</fi>
+	<en>Fall</en>
+      </aika>
+      <vastuu>
+	<fi>Äänieditointi</fi>
+	<en>Sound editing</en>
+      </vastuu>
+      <vastuu>
+	<fi>Valoajo</fi>
+	<en>Lighting operator</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Tyngät</nimi>
+      <teatteri>Jyväskylän kansannäyttämö</teatteri>
+      <aika>
+	<vuosi>2013</vuosi>
+	<fi>Kevät</fi>
+	<en>Spring</en>
+      </aika>
+      <vastuu>
+	<fi>Valoajo</fi>
+	<en>Lighting operator</en>
+      </vastuu>
+   </produktio>
+   <produktio status="mennyt">
+      <nimi>Esitystalous</nimi>
+      <teatteri>Jyväskylän ylioppilasteatteri</teatteri>
+      <aika>
+	<vuosi>2013</vuosi>
+	<fi>Kevät</fi>
+	<en>Spring</en>
+      </aika>
+      <vastuu>
+	<fi>Valoajo</fi>
+	<en>Lighting operator</en>
+      </vastuu>
+   </produktio>
+</ttlista>

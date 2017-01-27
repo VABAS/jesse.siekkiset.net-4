@@ -3,10 +3,16 @@
     <section>
         <h2 id="esitystekniikka">Esitystekniikka</h2>
         <p class="align_justify">
-        Esitystekniikalla tarkoitetaan lavaesityksiin tehtävää ääni- ja valoteknisiä ratkaisuja sekä esimerkiksi projisointeja ja lavastusta.
-        Itse olen toiminut pääasiassa teatteriympäristössä ja valojen parissa vuoden 2013 keväästä alkaen aloittaen valojen/tekniikan ajamisella ja viimeaikoina olen alkanut näkyä enemmän valosuunnittelun puolella.
-        Visuaalisia ideoitani on voinut nähdä vuoden 2015 syksystä alkaen ja ensimmäisen "oman" valosuunnitteluni tein joulukuussa 2015 Siperian nuorisoteatterille <i>Uhka Mediasta</i>-produktioon.
-        <br>Seuraavassa listaa produktioista joissa olen ollut mukana<script>document.write(' (otsikoita klikkaamalla lisätietoja)');</script>:
+        Esitystekniikalla tarkoitetaan lavaesityksiin tehtävää ääni- ja
+        valoteknisiä ratkaisuja sekä esimerkiksi projisointeja ja lavastusta.
+        Itse olen toiminut pääasiassa teatteriympäristössä ja valojen parissa
+        vuoden 2013 keväästä alkaen aloittaen valojen/tekniikan ajamisella ja
+        viimeaikoina olen alkanut näkyä enemmän valosuunnittelun puolella.
+        Visuaalisia ideoitani on voinut nähdä vuoden 2015 syksystä alkaen ja
+        ensimmäisen "oman" valosuunnitteluni tein joulukuussa 2015 Siperian
+        nuorisoteatterille <i>Uhka Mediasta</i>-produktioon.
+        <br>Seuraavassa listaa produktioista joissa olen ollut mukana
+        <script>document.write(' (otsikoita klikkaamalla lisätietoja)');</script>:
         </p>
         <figure id="tt_kuva" style="z-index:2;">
             <!-- ;) -->
@@ -26,7 +32,7 @@
         <ul class="lista_lappari">
             <li>Web-kehitys &amp; sisällöntuotto käyttäen PHP-HTML-CSS-JScript</li>
             <li>Julkaisualustat esim. Wordpress</li>
-            <li>Ohjelmointi (C/C++ perusteet, Javan perusteet jne...) <a href="#" onclick="window.open('http://imgs.xkcd.com/comics/code_quality.png', '', 'width=800, height=300'); return false;">Klik</a></li>
+            <li>Ohjelmointi <a href="#" style="font-size:x-small;" onclick="window.open('http://imgs.xkcd.com/comics/code_quality.png', '', 'width=800, height=300'); return false;">Klik</a></li>
             <li>Verkkotekniikka ja verkkojen vianhaku</li>
             <li>Monenlaiset palvelimet (esim. WEB, VoIP, DNS jne...)</li>
         </ul>

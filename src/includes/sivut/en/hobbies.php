@@ -3,11 +3,14 @@
     <section>
         <h2 id="show_tech">Show technology</h2>
         <p class="align_justify">
-        Show technology refers to sound and lighting solutions made for stage performances and shows.
-        I would also count projections and staging into show technology field.
-        I myself have done mainly lighting and sounds in theatre environment since spring 2013.
-        I Started as lighting operator and have recently moved towards lighting design.
-        My hand print could have been seen since fall 2015 and my first "own" lighting design was for <i>Siperian nuorisoteatteri</i> at December 2015 for <i>Uhka mediasta</i> production.
+        Show technology refers to sound and lighting solutions made for stage
+        performances and shows. I would also count projections and staging into
+        show technology field. I myself have done mainly lighting and sounds in
+        theatre environment since spring 2013. I Started as lighting operator
+        and have recently moved towards lighting design. My hand print could
+        have been seen since fall 2015 and my first "own" lighting design was
+        for <i>Siperian nuorisoteatteri</i> at December 2015 for <i>Uhka
+        mediasta</i> production.
         <br>List of all productions I have been involved with follows<script>document.write(' (click the headers for more information)');</script>:
         </p>
         <figure id="tt_kuva" style="z-index:2;">
@@ -28,7 +31,7 @@
         <ul class="lista_lappari">
             <li>Web-development using PHP-HTML-CSS-JScript</li>
             <li>Content management system e.g. Wordpress</li>
-            <li>Programming (C/C++ basics, basics of java etc...) <a href="#" onclick="window.open('http://imgs.xkcd.com/comics/code_quality.png', '', 'width=800, height=300'); return false;">click</a></li>
+            <li>Programming <a href="#" onclick="window.open('http://imgs.xkcd.com/comics/code_quality.png', '', 'width=800, height=300'); return false;">click</a></li>
             <li>Data networks and troubleshooting of networks</li>
             <li>Various servers (e.g. WEB, VoIP, DNS etc...)</li>
         </ul>

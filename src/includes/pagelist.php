@@ -35,6 +35,22 @@ function pageMatch ($fromLang, $toLang, $page) {
   return "none";
 }
 
+// Function to get first matching pagename in any language. Returns them as
+// array where language code is at first cell and pagename in second. Returns
+// empty array if match is not found.
+function pageMatchAny ($pagename) {
+  $xml = simplexml_load_file("xml/pages.xml");
+  $group = $xml->group;
+  for ($i = 0; $i < count($group); $i++) {
+    foreach($xml->group[$i]->attributes() as $name => $value) {
+      if ($value == $pagename) {
+        return array($name, $value);
+      }
+    }
+  }
+  return array();
+}
+
 // Function to get page details. Returns page details in array. Returns empty
 // array if match can't be found.
 function getPageDetails ($page, $lang) {

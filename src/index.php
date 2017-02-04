@@ -17,17 +17,32 @@ $kielet=[
 ];
 $oletuskieli = $kielet[0];
 if($kieli == ""){
-    // Jos cookie on asetettu.
-    if(in_array($keksi_kieli, $kielet)){
-        header("location: /".$keksi_kieli."/");
+    if ($sivu <> "") {
+        $matchedPage = pageMatchAny($sivu);
+        if (count($matchedPage) > 0) {
+            header("location: /" . $matchedPage[0] . "/" . $matchedPage[1] . "/");
+        }
+        else {
+            header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");       
+            $_GET['e'] = 404;                                           
+            include "error.php"; 
+        }
     }
-    //Jos selaimen pyytämä kieli on saatavilla.
-    elseif(in_array($selaimen_kieli, $kielet)){
-        header("location: /".$selaimen_kieli."/");
-    }
-    //Muutoin siirrytään oletuskieleen.
-    else{
-        header("location: /".$oletuskieli."/");
+    else {
+        // Jos cookie on asetettu.
+        if(in_array($keksi_kieli, $kielet)){
+            $kieli = $keksi_kieli;
+        }
+        //Jos selaimen pyytämä kieli on saatavilla.
+        elseif(in_array($selaimen_kieli, $kielet)){
+            $kieli = $selaimen_kieli;
+        }
+        //Muutoin siirrytään oletuskieleen.
+        else{
+            $kieli = $oletuskieli;
+        }
+    
+        header("location: /" . $kieli . "/");
     }
 }
 // Jos kieltä ei ole taulukossa siirrytään oletuskieleen.

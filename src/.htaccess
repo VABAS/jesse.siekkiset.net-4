@@ -3,6 +3,7 @@ RewriteBase /
 
 RewriteRule ^([a-z][a-z])/([a-z]*)/?$ index.php?%{QUERY_STRING}&kieli=$1&sivu=$2 [L]
 RewriteRule ^([a-z][a-z])/?$ index.php?%{QUERY_STRING}&kieli=$1 [L]
+RewriteRule ^([a-z]*)/?$ index.php?%{QUERY_STRING}&sivu=$1 [L]
 
 ErrorDocument 401 /error.php?e=401
 ErrorDocument 403 /error.php?e=403

@@ -1,4 +1,21 @@
 <?php
+// Returns all ages as array.
+function getallpages () {
+  $xml = simplexml_load_file("xml/pages.xml");                                  
+  $group = $xml->group;
+  $allPages = array();
+  for ($i = 0; $i < count($group); $i++) {
+    if ($xml->group[$i]['menu'] == "true") {
+      foreach($xml->group[$i]->attributes() as $name => $value) {                 
+        if ($name <> "menu") {
+          array_push($allPages, "/" . $name . "/" . $value);
+        }
+      }
+    }
+  }
+  return $allPages;
+}
+
 // Function to print menu.
 function printMenu ($lang) {
   $xml = simplexml_load_file("xml/pages.xml");

@@ -1,6 +1,7 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteRule ^sitemap.xml$ sitemap.php [L]
 RewriteRule ^([a-z][a-z])/([a-z]*)/?$ index.php?%{QUERY_STRING}&kieli=$1&sivu=$2 [L]
 RewriteRule ^([a-z][a-z])/?$ index.php?%{QUERY_STRING}&kieli=$1 [L]
 RewriteRule ^([a-z]*)/?$ index.php?%{QUERY_STRING}&sivu=$1 [L]

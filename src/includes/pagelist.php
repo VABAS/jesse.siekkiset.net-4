@@ -75,7 +75,7 @@ function getPageDetails ($page, $lang) {
   $group = $xml->group;
   
   for ($i = 0; $i < count($group); $i++) {
-    if ($group[$i][$lang] == $page) {
+    if ($group[$i][$lang] == $page || $group[$i]['special'] == $page) {
       for ($j = 0; $j < count($group[$i]); $j++) {
         if ($group[$i]->page[$j]['lang'] == $lang) {
           $script = "none";

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pages>
-    <group fi="index" en="index" menu="true">
+    <group fi="etusivu" en="front" special="index" menu="true">
         <page lang="fi">
             <title>Etusivu</title>
             <linktext>Etusivu</linktext>

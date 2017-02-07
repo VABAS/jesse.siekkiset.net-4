@@ -11,10 +11,10 @@
       $linkit=hae_linkit($kieli);
      ?>
     <div class="vasen_palsta">
-        <section>
+    <!--    <section>
             <h2>Home pages of others</h2>
             <?php echo $linkit['muiden_kotisivuja']; ?>
-        </section>
+        </section>-->
         <section>
             <h2>Theaters</h2>
             <?php echo $linkit['teattereita']; ?>

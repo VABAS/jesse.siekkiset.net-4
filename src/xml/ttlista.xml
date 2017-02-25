@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ttlista>
+<produktio status="tuleva">
+  <nimi>Valkoinen kani</nimi>
+  <teatteri>AdAstra-teatteri</teatteri>
+  <aika>
+    <vuosi>2017</vuosi>
+    <fi>Kevät</fi>
+    <en>Spring</en>
+  </aika>
+  <vastuu yt="yt">
+    <fi>Valosuunnittelu</fi>
+    <en>Lighting design</en>
+  </vastuu>
+  <vastuu>
+    <fi>Valo-, ääni- ja videoajo</fi>
+    <en>Lighting, sound and video operator</en>
+  </vastuu>
+</produktio>
 <produktio status="mennyt">
   <nimi>Painia ja Pornoa</nimi>
   <teatteri>Teatteri Iiris</teatteri>

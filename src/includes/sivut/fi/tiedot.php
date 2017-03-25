@@ -36,7 +36,10 @@
         </p>
         <section>
             <h3>Käytetyt tekniikat:</h3>
-            <a class="align_right" target="_blank" href="http://www.w3.org/html/logo/"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a>
+            <div class="align_right">
+                <a target="_blank" href="http://www.w3.org/html/logo/"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a>
+                <br><a target="_blank" href='http://ipv6-test.com/validate.php?url=referer'><img src='http://ipv6-test.com/button-ipv6-big.png' alt='ipv6 ready' title='ipv6 ready' border='0' /></a>
+            </div>
             <ul class="lista_lappari">
                 <li>PHP</li>
                 <li>HTML5</li>

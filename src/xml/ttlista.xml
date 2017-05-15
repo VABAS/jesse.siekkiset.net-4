@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ttlista>
-<produktio status="tuleva">
+<produktio status="mennyt">
+  <nimi>Orpokoti</nimi>
+  <teatteri>Siperian nuorisoteatteri</teatteri>
+  <aika>
+    <vuosi>2017</vuosi>
+    <fi>Kevät</fi>
+    <en>Spring</en>
+  </aika>
+  <vastuu>
+    <fi>Valosuunnittelu</fi>
+    <en>Lighting design</en>
+  </vastuu>
+  <vastuu>
+    <fi>Valo- ja ääniajo</fi>
+    <en>Lighting and sound operator</en>
+  </vastuu>
+</produktio>
+<produktio status="mennyt">
   <nimi>Valkoinen kani</nimi>
   <teatteri>AdAstra-teatteri</teatteri>
   <aika>

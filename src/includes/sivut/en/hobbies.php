@@ -1,5 +1,5 @@
 <section>
-    <h1>Harrastukset</h1>
+    <h1>Hobbies</h1>
     <section>
         <h2 id="show_tech">Show technology</h2>
         <p class="align_justify">

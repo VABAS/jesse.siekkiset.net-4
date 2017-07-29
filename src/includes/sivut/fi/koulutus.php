@@ -29,7 +29,7 @@
     <section>
         <h2>Korttikoulutukset ja ajokortit</h2>
         <ul class="lista_timantti">
-            <li>Työturvallisuuskortti voim. 3/2017</li>
+            <!--<li>Työturvallisuuskortti voim. 3/2017</li>-->
             <!--<li>Sähkötyöturvallisuuskortti voim. 11/2016</li>-->
             <!--<li>Tieturvakortti voim. 11/2016</li>-->
             <!--<li>Tulityökortti voim. 2/2016</li>-->

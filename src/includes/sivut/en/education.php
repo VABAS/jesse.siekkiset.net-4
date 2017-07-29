@@ -28,7 +28,7 @@
     <section>
         <h2>Cards and Licences</h2>
         <ul class="lista_timantti">
-            <li>Work Safety Card, expires at 3/2017</li>
+            <!--<li>Work Safety Card, expires at 3/2017</li>-->
             <!--<li>Electrical Safety Card expires at 11/2016</li>-->
             <!--<li>Road Safety Card voim. 11/2016</li>-->
             <!--<li>Tulityökortti voim. 2/2016</li>-->

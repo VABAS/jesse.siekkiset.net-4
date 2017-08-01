@@ -147,6 +147,13 @@
       <en>GitHub</en>
     </teksti>
   </linkki>
+  <linkki tyyppi="https" kategoria="muita-palvelut">
+    <osoite>https://www.abuseipdb.com/</osoite>
+    <teksti>
+      <fi>Abuseipdb</fi>
+      <en>Abuseipdb</en>
+    </teksti>
+  </linkki>
   <linkki tyyppi="normaali" kategoria="muita-uutiset">
     <osoite>http://yle.fi/</osoite>
     <teksti>

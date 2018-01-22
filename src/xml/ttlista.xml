@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ttlista>
+<produktio status="tuleva">
+  <nimi>Suurin on rakkaus</nimi>
+  <teatteri>AdAstra-teatteri</teatteri>
+  <aika>
+    <vuosi>2018</vuosi>
+    <fi>Kevät</fi>
+    <en>Spring</en>
+  </aika>
+  <vastuu>
+    <fi>Valosuunnittelu</fi>
+    <en>Lighting design</en>
+  </vastuu>
+  <vastuu>
+    <fi>Valoajo</fi>
+    <en>Lighting operator</en>
+  </vastuu>  
+</produktio>
 <produktio status="mennyt">
   <nimi>Orpokoti</nimi>
   <teatteri>Siperian nuorisoteatteri</teatteri>
